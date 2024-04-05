@@ -7,3 +7,4 @@ local Util = require("lazyvim.util")
 local map = Util.safe_keymap_set
 map("n", "<Tab>", ":bnext<CR>")
 map("n", "<S-Tab>", ":bprev<CR>")
+map("n", "<S-T>", ":Lspsaga peek_type_definition<CR>")
