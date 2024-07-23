@@ -8,3 +8,6 @@ local map = Util.safe_keymap_set
 map("n", "<Tab>", ":bnext<CR>")
 map("n", "<S-Tab>", ":bprev<CR>")
 map("n", "<S-T>", ":Lspsaga peek_type_definition<CR>")
+map("n", "<leader>mp", ":MarkdownPreviewToggle<CR>")
+map("n", "<leader>fs", "[m[{")
+map("n", "<leader>fS", "]m]}]}")
